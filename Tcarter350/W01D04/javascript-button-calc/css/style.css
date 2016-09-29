@@ -1,3 +1,59 @@
 body {
-  background: red;
+  margin: auto 0;
+  background-image: url("http://i.imgur.com/V53HB79.jpg");
+  background-color: pink;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+text-align: center;
+font-color: pink;
+
+
+   }
+
+   .input {
+     padding: 10px;
+     border: solid 1px #fff;
+     box-shadow: inset 1px 1px 2px 0 #707070;
+     transition: box-shadow 0.3s;
+   }
+   .input:focus,
+   .input.focus {
+     box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+   }
+
+   #operator, #calculate {
+     padding: 10px;
+     border: solid 1px #fff;
+     box-shadow: inset 1px 1px 2px 0 #707070;
+     transition: box-shadow 0.3s;
+   }
+   .input:focus,
+   .input.focus {
+     box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+     background: pink;
+   }
+
+
+
+
+   #operator {
+     height: 35px;
+   }
+
+form {
+  margin: 0 auto; width: 90%;
+background: rgba(0,0,0,0);
+height: 100px;
+width: 500px;
+
+}
+
+#display {
+
+  font-size: 100px;
+}
+
+button {
+  height: 35px;
 }
