@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+}
+
+ol {
+  list-style: none;
+  width: 460px;
+  height: 460px;
+  margin: auto;
+}
+
+ol li {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 1px solid green;
+  vertical-align: top;
+  margin-right: -4px;
+  font-size: 14px;
+  font-family: 'Yellowtail', cursive;
+  color: green;
+  text-align: center;
+  line-height: 100px;
+}
+
+img {
+  width: 200px;
+
+}
+
+.logo {
+width: 200px;
+margin: auto;
+
+}
