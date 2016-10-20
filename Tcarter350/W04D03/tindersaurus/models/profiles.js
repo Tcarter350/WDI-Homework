@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const quoteSchema = mongoose.Schema({
+const profilesSchema = mongoose.Schema({
     name: String,
     age: Number,
     species: String,
@@ -8,4 +8,4 @@ const quoteSchema = mongoose.Schema({
     dislikes: Array
 });
 
-module.exports = mongoose.model('Profiles', quoteSchema);
+module.exports = mongoose.model('Profiles', profilesSchema);
