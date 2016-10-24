@@ -1,0 +1,14 @@
+ul {
+   list-style-type: none;
+}
+
+img {
+  width: 150px;
+}
+
+body {
+  background-image: url("http://microbiology.science.oregonstate.edu/files/micro/dissolved%20organic%20matter.jpg");
+background-size: 100%;
+background-attachment: fixed;
+color: white;
+}
