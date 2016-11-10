@@ -25,6 +25,12 @@ function GameController() {
   this.mrClick = mrClick;
 }
 
+//THIS 4 LINE CHUNK BELOW IS HOW MIKE MANAGED THE PROBLEM
+
+// function mrClick($index) {
+//   counter++;
+//   this.cells[$index] = counter%2 ? 'X' : 'O';
+// }
 
 // const clickCounter = 0;
 // const player = 'X';
