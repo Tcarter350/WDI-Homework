@@ -1,0 +1,12 @@
+<section>
+  <ul class="row">
+    <li ng-repeat="cake in cakesIndex.all" class="four columns">
+      <a ui-sref="cakesShow({ id: cake._id })">
+        <img ng-src="{{ cake.cakeImage }}" class="u-max-full-width">
+        <h2 class="info">Flavour: {{ cake.flavour }}</h2>
+        <h4 class="info">Topping: {{ cake.icing }}</h4>
+        <p class="info">Number of Layers: {{ cake.layers }}</p>
+      </a>
+    </li>
+  </ul>
+</section>
