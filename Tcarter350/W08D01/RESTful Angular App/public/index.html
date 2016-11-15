@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="cakeApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Weekend Homework</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/satellizer/0.15.5/satellizer.min.js"></script>
+    <script src="/js/app.js" charset="utf-8"></script>
+    <script src="/js/controllers/auth.js" charset="utf-8"></script>
+    <script src="/js/controllers/cakes.js" charset="utf-8"></script>
+    <script src="/js/models/cake.js" charset="utf-8"></script>
+  <body>
+    <header class="container">
+      <h1 class="logo">Cake Factory</h1>
+      <img class="cupcake" src="https://s-media-cache-ak0.pinimg.com/originals/5e/5d/03/5e5d032d5068f312df9df406d2b17df3.png">
+      <nav>
+        <ul>
+          <li><a class="sublogo" ui-sref="cakesIndex" ui-sref-active="active">Cakes</a></li>
+          <li><a class="sublogo" ui-sref="cakesNew" ui-sref-active="active">Bake a Cake</a></li>
+          <li><a class="sublogo" ui-sref="register" ui-sref-active="active">Register</a></li>
+          <li><a class="sublogo" ui-sref="login" ui-sref-active="active">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container" ui-view>
+    </main>
+  </body>
+</html>

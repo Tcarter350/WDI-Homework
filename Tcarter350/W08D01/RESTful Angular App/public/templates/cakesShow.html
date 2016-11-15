@@ -1,0 +1,9 @@
+<section class="info">
+  <img ng-src="{{ cakesShow.cake.cakeImage }}">
+  <h2>Flavour: {{ cakesShow.cake.flavour }}</h2>
+  <h4>Topping: {{ cakesShow.cake.icing }}</h4>
+  <p>Number of Layers: {{ cakesShow.cake.layers }}</p>
+
+  <a ui-sref="cakesEdit({ id: cakesShow.cake._id })" class="button">Edit</a>
+  <button ng-click="cakesShow.delete()">Delete</button>
+</section>

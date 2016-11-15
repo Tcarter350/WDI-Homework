@@ -1,0 +1,22 @@
+<section class="row">
+  <form ng-submit="cakesEdit.update()">
+    <div class="twelve columns">
+      <label>Flavour</label>
+      <input type="text" name="flavour" placeholder="Flavour" ng-model="cakesEdit.cake.flavour" class="u-full-width">
+    </div>
+    <div class="twelve columns">
+      <label>Icing</label>
+      <input type="text" name="icing" placeholder="Icing" ng-model="cakesEdit.cake.icing" class="u-full-width">
+    </div>
+    <div class="twelve columns">
+      <label>Layers</label>
+      <input type="text" name="layers" placeholder="Layers" ng-model="cakesEdit.cake.layers" class="u-full-width">
+    </div>
+    <div class="twelve columns">
+      <label>Cake Image</label>
+      <input type="text" name="cakeImage" placeholder="Cake Image" ng-model="cakesEdit.cake.cakeImage" class="u-full-width">
+    </div>
+
+    <button>Update</button>
+  </form>
+</section>
