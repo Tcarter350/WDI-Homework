@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  hair_colour: MyString
+  house: MyString
+  wand: MyString
+  patronus: MyString
+  badass_rating: 1.5
+  image: MyString
+
+two:
+  hair_colour: MyString
+  house: MyString
+  wand: MyString
+  patronus: MyString
+  badass_rating: 1.5
+  image: MyString

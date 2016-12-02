@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Hair colour:</strong>
+  <%= @character.hair_colour %>
+</p>
+
+<p>
+  <strong>House:</strong>
+  <%= @character.house %>
+</p>
+
+<p>
+  <strong>Wand:</strong>
+  <%= @character.wand %>
+</p>
+
+<p>
+  <strong>Patronus:</strong>
+  <%= @character.patronus %>
+</p>
+
+<p>
+  <strong>Badass rating:</strong>
+  <%= @character.badass_rating %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= image_tag @character.image %>
+</p>
+
+<% if logged_in? %>
+  <%= link_to 'Edit', edit_character_path(@character) %> |
+<% end %>
+<%= link_to 'Back', characters_path %>
