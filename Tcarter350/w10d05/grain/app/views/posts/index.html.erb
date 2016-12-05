@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Posts</h1>
+
+<% @posts.each do |post| %>
+  <div class="col-sm-3">
+    <div class="card">
+      <%= image_tag post.image, class: "card-img-top", width: '100%' %>
+      <div class="card-block">
+        <h4 class="card-title"><%= post.title %></h4>
+        <small><%= post.user.username %></small>
+        <p class="card-text"><%= post.caption %></p>
+        <%= link_to 'Show', post, class: 'btn btn-primary' %>
+        <%= link_to 'Edit', edit_post_path(post), class: 'btn btn-secondary' %>
+        <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<%= link_to 'New Post', new_post_path %>
